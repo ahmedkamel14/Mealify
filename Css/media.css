@@ -1,0 +1,170 @@
+/* phone */
+@media (min-width: 576px) {
+  .footer .container .foots .cards .card-2 .subs .parent1 {
+    flex: 2;
+    padding-right: 4px;
+  }
+  .footer .container .foots .cards .card-2 .subs .parent2 {
+    width: 110px;
+    padding-left: 4px;
+  }
+  .sm-25 {
+    width: 25%;
+  }
+  .sm-33 {
+    width: 33%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+  .sm-75 {
+    width: 75%;
+  }
+  .sm-100 {
+    width: 100%;
+  }
+}
+/* tablet */
+@media (min-width: 768px) {
+  .footer .container .foots .parent1 {
+    width: 50%;
+    padding-right: 10px;
+    order: 0;
+  }
+
+  .footer .container .foots .parent4 {
+    width: 50%;
+    order: 2;
+    padding-left: 10px;
+  }
+
+  .footer .container .foots .total {
+    order: 3;
+  }
+  .section-4 .container .inform .parent {
+    width: 50%; /* عاوز اعرف فين المشكلة انا لو مكتبتش السطر ده مش هتتقسم في التابلت واللاب مع اني عامل md-50 in html */
+  }
+
+  .section-4 .container .inform .parent1 {
+    padding-right: 10px;
+  }
+  .section-4 .container .inform .parent2 {
+    padding-left: 10px;
+  }
+  .section-3 .container .images {
+    columns: 2;
+    column-gap: 20px;
+  }
+  .nav {
+    padding: 0 100px;
+  }
+  .header {
+    padding: 0 100px;
+  }
+  .section-2 .container {
+    padding: 0 100px;
+  }
+  .section-2 .container .cards .parent {
+    padding: 0px 30px 30px 0px;
+  }
+  .section-3 .container {
+    padding: 0 100px;
+  }
+  .section-4 .container {
+    padding: 0 100px;
+  }
+  .footer .container {
+    padding: 0 100px;
+  }
+
+  .md-25 {
+    width: 25%;
+  }
+  .md-33 {
+    width: 33%;
+  }
+  .md-50 {
+    width: 50%;
+  }
+  .md-75 {
+    width: 75%;
+  }
+  .md-100 {
+    width: 100%;
+  }
+}
+/* laptop */
+@media (min-width: 1020px) {
+  
+
+  .footer .container .foots .cards .total1 {
+    flex: 1;
+    padding-right: 10px;
+    order: 0;
+  }
+
+  .footer .container .foots .cards .total3 {
+    flex: 1;
+    order: 2;
+    padding-left: 10px;
+  }
+
+  .footer .container .foots .cards .total {
+    flex: 2;
+    order: 1;
+  }
+  .section-3 .container .images {
+    columns: 3;
+  }
+  .header .parent {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .header .parent2 {
+    justify-content: flex-start;
+    text-align: start;
+    order: -1;
+    width: 39%;
+  }
+  .header .parent1 {
+    width: 40%;
+  }
+  .header .parent2 .content .btns {
+    justify-content: flex-start;
+  }
+
+  .section-2 .container .cards .parent3 {
+    padding: 0px 0px 30px 0px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+  .nav-medium {
+    display: inline-block;
+  }
+  .section-4 .container .form .inputs .parent1 {
+    padding-right: 8px;
+  }
+  .section-4 .container .form .inputs .parent2 {
+    padding-left: 8px;
+  }
+  .section-4 .container .form .inputs .parent {
+    width: 50%;
+  }
+  .xl-25 {
+    width: 25%;
+  }
+  .xl-33 {
+    width: 33%;
+  }
+  .xl-50 {
+    width: 50%;
+  }
+  .xl-75 {
+    width: 75%;
+  }
+  .xl-100 {
+    width: 100%;
+  }
+}
