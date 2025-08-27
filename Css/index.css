@@ -1160,7 +1160,7 @@ body:has(#menu:target) .overlay {
   fill: #161616;
 }
 
-.section-2 .container .cards .card-1 .card-content h3 {
+:has(#dark-toggle:checked) .section-2 .container .cards .card-1 .card-content h3 {
   color: var(--secondary-color);
 }
 
